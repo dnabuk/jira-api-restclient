@@ -21,6 +21,7 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 - The `CurlClient` in combination with cURL version < 7.33.0 was getting `426 Upgrade Required` error on any request to the Atlassian Cloud servers by [@aik099] (#239).
 - The `PHPClient` on PHP < 8.0 was getting `426 Upgrade Required` error on any request to the Atlassian Cloud servers by [@aik099] (#239).
 - The `Api::downloadAttachment` method wasn't working with `CurlClient` for Atlassian Cloud servers by [@aik099] (#240).
+- The `Issue` getters now use Jira field keys and issue fields can be accessed by both field keys and automapped field titles by [@dnabuk] (#65).
 
 ## [2.0.0-B1] - 2025-01-04
 ### Added
@@ -103,3 +104,4 @@ This project adheres to [Semantic Versioning](https://semver.org/).
 [@benPesso]: https://github.com/benPesso
 [@danillofb]: https://github.com/danillofb
 [@alex-dna]: https://github.com/alex-dna
+[@dnabuk]: https://github.com/dnabuk
